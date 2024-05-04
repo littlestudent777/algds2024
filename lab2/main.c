@@ -12,9 +12,7 @@ int main() {
     }
     printBrackStr(root);
     printf("\n");
-    //    printTree(root);
-    //    printf("\n");
-        // Erase an element and print the result
+    // Erase an element and print the result
     root = deleteNode(root, 6);
     printf("Result after deleting key == 6:\n");
     printBrackStr(root);
